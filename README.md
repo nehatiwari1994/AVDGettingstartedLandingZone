@@ -51,6 +51,8 @@ got to the created template and click to deploy & then pass the required paramet
 wait for around 10 mins for the deployment to get completed 
 
 ## Azure services and related products
+Resource Group
+
 Azure virtual Network (HUB & Spoke with Subnets)
 
 Azure Storage Account 

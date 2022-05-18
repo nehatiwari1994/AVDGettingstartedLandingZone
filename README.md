@@ -1,13 +1,18 @@
 # Title: Getting started with AVD landing Zone on Azure 
+This template allows you to create one Additional Domain controller Server(ADC) instance on Virtual Machine which will be later configured or promoted as an additional domain controller for authetication and two virtual networks acting as Hub & Spoke vnets and one storage account for storing the vhds of the vms. ADC will automatically deployed in management subnet of Hub Vnet.
 
 
 
 # Solution overview and deployed resources. 
+This template helps you to quickly deploy the landing zone for your First AVD workload on Azure assuming you already have PDC setup (If you have no domain controller in your environemnt in that case also this server can be promoted as primary domain controller as we have kept it greenfiled). 
 
 
 
 ## Target audience
-
+Infrastructure Architect
+Application Developer
+IT Professional
+Cloud Solution Architect
 
 
 # Architecture

@@ -96,6 +96,7 @@ Since a DNS Server is being configured as part of our efforts, you’ll be warne
 On the "Paths" page, confirm the location for ADDS database files, log files and SYSVOL. You can either use the default < location or folder or selection→, or select another folder of your choice.Review your selections in the next screen and click Next. Windows will then perform a prerequisites check. Once it is done, click Install.
 
 Your system will be rebooted after replication has taken place. Verify the health of the new domain controller by running dcdiag /v from the command line.
+Once done you have your initial landing zone ready for deploying and getting started with the Host pool and session host additions 
 
 ## Related references
 

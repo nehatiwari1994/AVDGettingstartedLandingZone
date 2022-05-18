@@ -1,5 +1,6 @@
 # Title: Getting started with AVD landing Zone on Azure 
 This template allows you to create the landing zone for below scenarios 
+
 POC FOR AVD 
 
 Production AVD deployment with PDC onpremises 

@@ -59,24 +59,44 @@ Azure Virtual Machine
 ## Deployment steps
 
 Make sure you have azure subscription ready to use and atleast contributor role on the subscription for avoiding any issue with the deployment permissions 
+
 You can use click to deploy button for the Vnets and ADC vm to get deployed 
+
 once deployment completes you can follow below step for promoting the server to Aditional domain controller 
+
 Make sure you have provisoned the connectivity if its hybrid deployment and you already have PDC onpremises 
+
 add the DNS server of the PDC in the vnet for the ADC server to join to domian 
+
 Join the ADC server to domain 
+
 Open Server Manager → Roles Summary → Add roles and feature
+
 Select the roles you want to install on this server. The basic requirement to promote this server into a domain controller is Active Directory Domain Services.
+
 The features for this role are ready to be installed. The basic features required for this service are selected by default. Click next.
+
 Confirm your installation selections.
+
 Note: It is recommended to select the "Restart the destination server automatically if required" option.
+
 Click the Install button. Once installation is complete, close the window.
+
 Once the ADDS role is installed in this server, you will see a notification flag next to the Manage menu. Select "Promote this server to a domain controller"
-This fires up the ADDS configuration wizard. On the Deployment configuration page, select "Add Domain controller to an existing domain" . You need to specify the name of the domain in which the new DC will be added.
+
+This fires up the ADDS configuration wizard. On the Deployment configuration page, select "Add Domain controller to an existing domain" . You need to specify the name 
+of the domain in which the new DC will be added.
+
 The "Domain controller options" page appears next. Options to make this DC a DNS server and a Global Catalog are selected by default. You can choose to make this DC a read-only DC if you want. Select the site name for the DC and a unique password for the DSRM mode.
+
 Note: DSRM mode helps gain access to an environment if all domain administrator accounts lose access or in case of DC failure.
+
 Since a DNS Server is being configured as part of our efforts, you’ll be warned that a delegation for this DNS server cannot be created. This can be safely ignored.Additional options: Choose where you want your DC to replicate from. Active Directory can replicate from any domain controller or a specific one.
+
 On the "Paths" page, confirm the location for ADDS database files, log files and SYSVOL. You can either use the default < location or folder or selection→, or select another folder of your choice.Review your selections in the next screen and click Next. Windows will then perform a prerequisites check. Once it is done, click Install.
+
 Your system will be rebooted after replication has taken place. Verify the health of the new domain controller by running dcdiag /v from the command line.
+
 ## Related references
 
 

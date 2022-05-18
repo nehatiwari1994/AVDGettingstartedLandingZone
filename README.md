@@ -98,8 +98,11 @@ On the "Paths" page, confirm the location for ADDS database files, log files and
 Your system will be rebooted after replication has taken place. Verify the health of the new domain controller by running dcdiag /v from the command line.
 Once done you have your initial landing zone ready for deploying and getting started with the Host pool and session host additions 
 
-## Related references
 
+## Related references
+https://docs.microsoft.com/en-us/azure/virtual-desktop/overview
+https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/
+https://docs.microsoft.com/en-us/azure/architecture/example-scenario/wvd/windows-virtual-desktop?context=%2Fazure%2Fvirtual-desktop%2Fcontext%2Fcontext
 
 ## License & Contribute
 

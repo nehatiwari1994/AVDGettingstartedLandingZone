@@ -4,7 +4,7 @@ This template allows you to create one Additional Domain controller Server(ADC) 
 
 
 # Solution overview and deployed resources. 
-This template helps you to quickly deploy the landing zone for your First AVD workload on Azure assuming you already have PDC setup (If you have no domain controller in your environemnt in that case also this server can be promoted as primary domain controller as we have kept it greenfiled). 
+This template helps you to quickly deploy the landing zone for your First AVD workload on Azure assuming you already have PDC setup (If you have no domain controller in your environemnt in that case also this server can be promoted as primary domain controller as we have kept it greenfiled). Deploys Hub & spoke Vnet in your landing zone subscription with 4 subnets (LAN, WAN, Protected & MANAGMENT Subnet) in the Hub Vnet so that in case you plan to deploy a FW this 
 
 
 

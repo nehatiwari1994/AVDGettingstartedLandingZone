@@ -64,7 +64,7 @@ You can use click to deploy button for the Vnets and ADC vm to get deployed
 
 once deployment completes you can follow below step for promoting the server to Aditional domain controller 
 
-Make sure you have provisoned the connectivity if its hybrid deployment and you already have PDC onpremises 
+Make sure you have provisoned the connectivity from onpre to Azure if its hybrid deployment and you already have PDC onpremises 
 
 add the DNS server of the PDC in the vnet for the ADC server to join to domian 
 
@@ -103,6 +103,6 @@ Your system will be rebooted after replication has taken place. Verify the healt
 ## License & Contribute
 
 You are responsible for the performance, the necessary testing, and if needed any regulatory clearance for any of the models produced by this toolbox.
-Please refer [LICENSE](LICENSE) &  [Contribute](https://github.com/Ganapathivarma07/LRS-Migration-AzureSQLMI/blob/master/Contribute.md) for more details
+Please refer [LICENSE](LICENSE) &  [Contribute](https://github.com/nehatiwari1994/AVDGettingstartedLandingZone/blob/master/Contribute.md) for more details
 
 

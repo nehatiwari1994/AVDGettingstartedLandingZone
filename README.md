@@ -22,7 +22,7 @@ Cloud Solution Architect
 
 
 
-![alt image]()
+![alt image](https://github.com/nehatiwari1994/AVDGettingstartedLandingZone/blob/master/Images/AVD%20Architecture%20with%20Azure%20Landing%20Zone.png)
 
 
 

@@ -101,7 +101,9 @@ Once done you have your initial landing zone ready for deploying and getting sta
 
 ## Related references
 https://docs.microsoft.com/en-us/azure/virtual-desktop/overview
+
 https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/
+
 https://docs.microsoft.com/en-us/azure/architecture/example-scenario/wvd/windows-virtual-desktop?context=%2Fazure%2Fvirtual-desktop%2Fcontext%2Fcontext
 
 ## License & Contribute

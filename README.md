@@ -10,8 +10,11 @@ This template helps you to quickly deploy the landing zone for your First AVD wo
 
 ## Target audience
 Infrastructure Architect
+
 Application Developer
+
 IT Professional
+
 Cloud Solution Architect
 
 
